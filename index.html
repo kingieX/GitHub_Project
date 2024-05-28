@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <!-- <img src="./assets/logo.png" alt="Logo"> -->
+            <h3>Harl</h3>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div></div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section hidden">
+        <div class="content">
+            <h1 class="outline">Hi, I'm a Professional</h1>
+            <h1 class="role">WEB DEVELOPER</h1>
+            <p class="desc">Harley is a passionate web developer with several years of experience in building responsive and user-friendly websites. She specializes in front-end development technologies such as HTML, CSS, and JavaScript, and is proficient in frameworks like React.js and Vue.js. With a keen eye for design and a strong understanding of UX principles, Harley is dedicated to creating engaging web experiences that leave a lasting impression on users.</p>
+            <button class="hirebtn">Hire me</button>
+        </div>
+        <div class="floating-image">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <img src="./assets/profile.jpg" alt="Floating Image" class="image">
+            <!-- <div class="circle2"></div> -->
+            <div class="circle1"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="hidden">
+        <h2>Projects</h2>
+        <div class="swiper sample-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <img src="./assets/project1.png" alt="Project Image">
+                        <h3>hello1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla consequuntur hic corporis?</p>
+                        <div class="project-links">
+                            <a href="https://nexa-tune-2-0.vercel.app/" target="_blank" class="link-icon"><img src="./assets/deploy.png" alt=""></a>
+                            <a href="https://github.com/kingieX/BiteSwift" target="_blank" class="link-icon"><img src="./assets/code.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <img src="./assets/project2.jpeg" alt="Project Image">
+                        <h3>hello2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla consequuntur hic corporis?</p>
+                        <div class="project-links">
+                            <a href="https://nexa-tune-2-0.vercel.app/" target="_blank" class="link-icon"><img src="./assets/deploy.png" alt=""></a>
+                            <a href="https://github.com/kingieX/BiteSwift" target="_blank" class="link-icon"><img src="./assets/code.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <img src="./assets/project3.jpeg" alt="Project Image">
+                        <h3>hello3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla consequuntur hic corporis?</p>
+                        <div class="project-links">
+                            <a href="https://nexa-tune-2-0.vercel.app/" target="_blank" class="link-icon"><img src="./assets/deploy.png" alt=""></a>
+                            <a href="https://github.com/kingieX/BiteSwift" target="_blank" class="link-icon"><img src="./assets/code.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <img src="./assets/project4.jpeg" alt="Project Image">
+                        <h3>hello4</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla consequuntur hic corporis?</p>
+                        <div class="project-links">
+                            <a href="https://nexa-tune-2-0.vercel.app/" target="_blank" class="link-icon"><img src="./assets/deploy.png" alt=""></a>
+                            <a href="https://github.com/kingieX/BiteSwift" target="_blank" class="link-icon"><img src="./assets/code.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    
+
+    <!-- Skills Section -->
+    <section id="skills" class="hidden">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <img src="./assets/html.png" alt="HTML">
+                    <!-- <p>HTML</p> -->
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="85%">85%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./assets/css.png" alt="CSS">
+                    <!-- <p>CSS</p> -->
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="90%">90%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./assets/js.png" alt="JavaScript">
+                    <!-- <p>JavaScript</p> -->
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="75%">75%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./assets/react.png" alt="React">
+                    <!-- <p>React</p> -->
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="80%">80%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./assets/vue.png" alt="Vue">
+                    <!-- <p>Vue</p> -->
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="70%">70%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="hidden">
+        <h2>Contact Me</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi libero necessitatibus iusto excepturi ducimus, dignissimos adipisci earum temporibus repellat accusantium.</p>
+        <div class="contact-container">
+            <!-- Contact Form or Contact Information will go here -->
+            <form id="contact-form">
+                <input type="text" name="to_name" value="Harley" hidden>
+                <div>
+                    <label>Full Name</label>
+                    <input type="text" name="from_name" placeholder="Enter your Fullname" required>
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="email" name="from_email" placeholder="Enter your email" required>
+                </div>
+                <div>
+                    <label>Subject</label>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                </div>
+                <div>
+                    <label>Message</label>
+                    <textarea name="message" cols="30" rows="10" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+            <!-- Social media -->
+            <div>
+                <h2>Social Media</h2>
+                <p>Connect with me on Social media, let's get to know your needs and how I can be of service to your dynamic team.</p>
+                <div class="social-media">
+                   <a href="https://github.com/harl-dev" target="_blank"><img src="./assets/github.png" alt="Github"></a>
+                   <a href="https://www.linkedin.com/in/harl-dev/" target="_blank"><img src="./assets/linkedin.png" alt="Linkedin"></a>
+                   <a href="https://www.instagram.com/harl_dev/" target="_blank"><img src="./assets/instagram.png" alt="Instagram"></a>
+                   <a href="https://twitter.com/harl_dev" target="_blank"><img src="./assets/twitter.png" alt="Twitter"></a>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <!-- <h3>Get in Touch</h3> -->
+        <p>Copyright &copy; 2021</p>
+        <p>Designed and Developed by <a href="https://github.com/harl-dev" target="_blank">harl-dev</a></p>
+    </footer>
+
+    <!-- script for swiper -->
+    <script src="swiper.js"></script>
+    <!-- script for mail -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
