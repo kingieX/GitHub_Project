@@ -1,0 +1,382 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ body,html{
+    /* width: 100%; */
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+ }
+
+ /* header */
+ header{
+   position: fixed;
+   z-index: 10;
+   width: 100%;
+ }
+
+
+ body{
+    background-color: darkslategrey;
+ }
+  
+ 
+ /* nav bar */
+ .navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 35px ;
+    background-color:  darkslategrey;
+ }
+ /* logo */
+ .logo{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+
+ /* logo text */
+ .navBar h2{
+   /* shape-outside: circle(200%);
+   border-radius: 80%; */
+   color:  darkorange;
+   font-size: 10px;
+ }
+
+ /* nav bar logo */
+ .navBar img{
+   width: 25px;
+ }
+ /* navigation */
+ nav{
+    display: flex;
+    gap: 20px;
+ }
+
+ nav a{
+    text-decoration: none;
+    color: darkorange;
+    font-size: 19px;
+    border-left: 2px solid darkorange;
+    border-right: 2px solid darkorange;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+ nav a:hover{
+    border-bottom: 1px solid white;
+    color: white;
+ }
+ nav a:active{
+    color: red;
+ }
+ 
+ /* home page */
+#home{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-image: url(/GitHub_Project/assets/back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: change 10s infinite ease-in-out;
+    padding-top: 80px;
+}
+@keyframes change{
+    0%{
+        background-image: url(/GitHub_Project/assets/back2.jpg);
+    }
+    15%{
+        background-image: url(/GitHub_Project/assets/back3.jpg);
+    }
+    35%{
+        background-image: url(/GitHub_Project/assets/back4.jpg);
+    }
+    55%{
+        background-image: url(/GitHub_Project/assets/back5.jpg);
+    }
+    75%{
+        background-image: url(/GitHub_Project/assets/back6.jpg);
+    }
+    85%{
+        background-image: url(/GitHub_Project/assets/back7.jpg);
+    }
+    100%{
+        background-image: url(/GitHub_Project/assets/back8.jpg);
+    }
+ }
+
+
+ /* hero detail */
+ .heroDetails{
+    text-align: center;
+    padding-bottom: 60px;
+ }
+
+ /* hero text */
+ #home h1{
+      font-size: 120px;  
+      padding-top: 70px;
+      padding-bottom: 20px;
+      color: white;
+      animation-name: slide;
+      animation-duration: 3s;
+      animation-delay: 1s;
+      animation-iteration-count: 10;
+      transition: 1s ease-out;
+ }
+
+ /* hero text animation */
+ @keyframes slide{
+    0%{
+        margin-left: 100%;
+        width: 100%;
+    }
+    100%{
+        margin-left: 0%;
+        width: 100%;
+    }
+ }
+
+ /* hero sub text */
+ #home h3{
+       font-size: 30px; 
+       color:  darkslategrey;
+       padding-bottom: 50px;
+ }
+
+ /* hero buttton */
+ button{
+   padding: 8px 20px;
+   font-size: 20px;
+   border-radius: 30px;
+   background-color: darkorange;
+   border: none;
+   color: white;
+ }
+
+ /* button hover */
+ button:hover{
+   background-color: white;
+   border: 3px solid darkorange;
+   color: darkslategrey;
+   transition: 1s ease-in-out;
+ }
+
+
+ /* hero box container */
+ .boxes{
+ display: flex;
+ gap: 30px;
+ justify-content: center;
+ align-items: center;
+ }
+
+ /* hero box */
+ .box{
+  width: 400px;
+  height: 120px;
+  background-color: darkslategrey;
+  color: darkorange;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 30px;
+  animation-name: growing;
+  animation-duration: 5s;
+ animation-iteration-count: 15;
+ }
+ @keyframes growing{
+    0%{
+        height: 1px;
+        transition: 1s ease-out;
+    }
+    100%{
+        transition: 1s ease-out;
+        height: 120px ;
+    }
+ }
+
+ /* about section*/
+ #about{
+  display: flex;
+  padding-top: 120px;
+  gap: 350px;
+  margin-left: 70px;
+  /* margin-right: 50px; */
+ }
+ /* about the website */
+ .aboutDetail1{
+    width: 500px;
+    text-align: left;
+ }
+ .aboutDetail1 h1{
+  font-size: 50px;
+  padding-bottom: 30px;
+  color: darkorange;
+ }
+ .aboutDetail1 p{
+  font-size: 17px;
+  padding-bottom: 30px;
+ }
+ .aboutDetail1 h2{
+    font-size: 20px;
+    padding-bottom: 20px;
+ }
+ .aboutImages{
+    display: flex;
+    gap: 20px;
+    
+ }
+ .img{
+    width: 30px;
+ }
+
+ /* about git hub */
+ .aboutDetail2{
+    width: 500px;
+    text-align: start;
+ }
+ .aboutDetail2 h1{
+    color: darkorange;
+    padding-bottom: 30px;
+    font-size: 50px;
+ }
+ .aboutDetail2 p{
+    font-size: 17px;
+    padding-bottom: 20px
+
+ }
+ .aboutDetail2 h2{
+    font-size: 20px;
+    padding-bottom: 20px;
+ }
+ /* #close{
+    color: gray;
+    padding-top: 10px;
+ }
+ #close:hover{
+    color: white;
+ } */
+
+
+ /* services section */
+ #services{
+   margin-top: 70px ;
+   text-align: center;
+   height: 70vh;
+   background-image: url(/GitHub_Project/assets/image6.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   color: darkslategrey;
+   padding-top: 120px;
+ }
+
+ #services h1{
+    font-size: 50px;
+  padding-bottom: 30px;
+  color: darkorange;
+ }
+
+ #services p{
+    font-size: 40px;
+    padding-bottom: 20px
+ }
+
+ /* create git hub account section */
+ #create{
+    text-align: center;
+    padding-top: 120px;
+ }
+
+ #create h1{
+    padding-top: 30px;
+    font-size: 50px;
+  padding-bottom: 30px;
+  color: darkorange;
+ }
+
+ #create p{
+    font-size: 17px;
+    padding-bottom: 20px
+ }
+ 
+ #create a{
+    text-decoration: none;
+    color: darkorange;
+ }
+ #create a:hover{
+  color: white;
+  border-bottom: 1px solid darkorange;
+  transition: 1s ease-in-out;
+ }
+
+
+ /* documentation section */
+ #documentation{
+    text-align: center;
+    padding-top: 100px;
+ }
+
+ #documentation h1{
+    font-size: 50px;
+  padding-bottom: 30px;
+  color: darkorange;
+ }
+
+ #documentation p{
+    font-size: 17px;
+    padding-bottom: 20px
+ }
+ #documentation a{
+    text-decoration: none;
+    color: darkorange;
+ }
+
+ #documentation a:hover{
+    color: white;
+    border-bottom: 1px solid darkorange;
+    transition: 1s ease-in-out;
+   }
+
+   /* contact section */
+   #contact{
+      text-align: center;
+      padding-top: 50px;
+      margin-top: 100px;
+      padding-bottom: 70px;
+   }
+
+   #contact h1{
+      color: darkorange;
+      font-size: 50px;
+      padding-bottom: 30px;
+   }
+
+
+   #contact p{
+      font-size: 30px;
+      padding-bottom: 30px;
+   }
+   .contactImages{
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: center; 
+
+   }
+    .images{
+      width: 30px;
+      color: black;
+    }
+
+    .images:hover{
+      color: darkorange;
+      transition: 1s ease-in-out;
+    }
