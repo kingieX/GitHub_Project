@@ -89,25 +89,25 @@
 }
 @keyframes change{
     0%{
-        background-image: url(/GitHub_Project/assets/back2.jpg);
+        background-image: url(//assets/back2.jpg);
     }
     15%{
-        background-image: url(/GitHub_Project/assets/back3.jpg);
+        background-image: url(/assets/back3.jpg);
     }
     35%{
-        background-image: url(/GitHub_Project/assets/back4.jpg);
+        background-image: url(/assets/back4.jpg);
     }
     55%{
-        background-image: url(/GitHub_Project/assets/back5.jpg);
+        background-image: url(/assets/back5.jpg);
     }
     75%{
-        background-image: url(/GitHub_Project/assets/back6.jpg);
+        background-image: url(/assets/back6.jpg);
     }
     85%{
-        background-image: url(/GitHub_Project/assets/back7.jpg);
+        background-image: url(/assets/back7.jpg);
     }
     100%{
-        background-image: url(/GitHub_Project/assets/back8.jpg);
+        background-image: url(/assets/back8.jpg);
     }
  }
 
@@ -270,7 +270,7 @@
    margin-top: 70px ;
    text-align: center;
    height: 70vh;
-   background-image: url(/GitHub_Project/assets/image6.png);
+   background-image: url(/assets/image6.png);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
