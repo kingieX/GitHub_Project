@@ -80,16 +80,16 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url(/GitHub_Project/assets/back1.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-image: url(/assets/back1.jpg);
     background-size: cover;
     animation: change 10s infinite ease-in-out;
     padding-top: 80px;
 }
 @keyframes change{
     0%{
-        background-image: url(//assets/back2.jpg);
+        background-image: url(/assets/back2.jpg);
     }
     15%{
         background-image: url(/assets/back3.jpg);
